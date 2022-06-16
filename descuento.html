@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y descuentos</title>
+</head>
+<body>
+    <header>
+        <h1>Porcentajes y descuentos</h1>
+    </header>
+
+    <section>
+        <h2>Calcula el precio con el descuento aplicado</h2>
+
+        <form action="">
+            <label for="inputPrecio">Escribe el precio de tu producto:</label>
+            <input id="inputPrecio" type="number"></br>
+        </br>
+            <label for="inputDescuento">Escribe porcentaje de descuento:</label>
+            <input id="inputDescuento" type="number"></br>
+        </br>
+            <label for="inputCupon">Escribe el numero de cupon:</label>
+            <input id="inputCupon" type="text"></br>
+        </br>
+            <button type="button" onclick="calcular()" >Calcular el precio con descuento</button>
+            <p id="resultadoP" ></p>
+            <p id="resultadoP2" ></p>
+
+        </form>
+    </section>
+
+    <script src="./descuento.js"></script>
+</body>
+</html>
