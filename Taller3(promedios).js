@@ -175,3 +175,6 @@ function calcularPromPonderado(objeto) {
     return promPronderado;
 
 }
+
+
+
